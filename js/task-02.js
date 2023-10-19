@@ -12,6 +12,6 @@ const ingredientsToItem = ingredients.map((item) => {
   li.textContent = item;
   return li;
 });
-//додоавання едементів з масиву
+//додоавання елементів до масиву
 const list = document.querySelector("#ingredients");
 list.append(...ingredientsToItem);
