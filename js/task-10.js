@@ -35,4 +35,5 @@ function createBoxes() {
 // очищення
 function destroyBoxes() {
   boxes.innerHTML = "";
+  input.value = "";
 }
